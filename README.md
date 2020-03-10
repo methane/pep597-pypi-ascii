@@ -11,3 +11,12 @@ Files:
 * `with-utf8.txt` -- Output of `2_check_install.py` in UTF-8 locale.
 * `failed-ascii.txt` -- Packages failed to install in ASCII locale.
 * `failed-utf8.txt` -- Packages failed to install in UTF-8 locale.
+
+```
+$ grep  -c "UnicodeDecodeError: 'ascii' codec" with-ascii.txt
+82
+$ grep  -c "UnicodeDecodeError: 'ascii' codec" with-utf8.txt
+0
+```
+
+About 82 packages failed to install due to omit `encoding="utf-8"`.
