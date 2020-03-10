@@ -1,0 +1,2790 @@
+Trying urllib3 ... ok
+Trying requests ... ok
+Trying python-dateutil ... ok
+Trying idna ... ok
+Trying rsa ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-gi2do8qo/rsa/setup.py'"'"'; __file__='"'"'/tmp/pip-install-gi2do8qo/rsa/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-gi2do8qo/rsa/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-gi2do8qo/rsa/setup.py", line 20, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 898: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying attrs ... ok
+Trying wcwidth ... ok
+Trying pyrsistent ... ok
+Trying configparser ... ok
+Trying pexpect ... ok
+Trying docker ... ok
+Trying tqdm ... ok
+Trying tabulate ... ok
+Trying webencodings ... ok
+Trying pymongo ... ok
+Trying pathlib2 ... ok
+Trying flake8 ... ok
+Trying bleach ... ok
+Trying pyzmq ... timedout
+Trying pylint ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-ku363tpo/pylint/setup.py'"'"'; __file__='"'"'/tmp/pip-install-ku363tpo/pylint/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-ku363tpo/pylint/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-ku363tpo/pylint/setup.py", line 60, in <module>
+        long_description = stream.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 4020: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pytest-cov ... ok
+Trying yarl ... ok
+Trying xmltodict ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-_18l5nuf/xmltodict/setup.py'"'"'; __file__='"'"'/tmp/pip-install-_18l5nuf/xmltodict/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-_18l5nuf/xmltodict/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-_18l5nuf/xmltodict/setup.py", line 12, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 2587: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying ruamel-yaml ... ok
+Trying tzlocal ... ok
+Trying html5lib ... ok
+Trying websockets ... ok
+Trying google-cloud-pubsub ... ok
+Trying singledispatch ... ok
+Trying text-unidecode ... ok
+Trying snowflake-connector-python ... ok
+Trying celery ... ok
+Trying shapely ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-cy_cb18d/shapely/setup.py'"'"'; __file__='"'"'/tmp/pip-install-cy_cb18d/shapely/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-cy_cb18d/shapely/
+    Complete output (11 lines):
+    Failed `CDLL(libgeos_c.so.1)`
+    Failed `CDLL(libgeos_c.so)`
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-cy_cb18d/shapely/setup.py", line 85, in <module>
+        from shapely._buildcfg import geos_version_string, geos_version, \
+      File "/tmp/pip-install-cy_cb18d/shapely/shapely/_buildcfg.py", line 169, in <module>
+        lgeos = load_dll('geos_c',
+      File "/tmp/pip-install-cy_cb18d/shapely/shapely/_buildcfg.py", line 162, in load_dll
+        raise OSError(
+    OSError: Could not find library geos_c or load any of its variants ['libgeos_c.so.1', 'libgeos_c.so']
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying arrow ... ok
+Trying slackclient ... ok
+Trying smart-open ... ok
+Trying pipenv ... timedout
+Trying et-xmlfile ... ok
+Trying unicodecsv ... ok
+Trying faker ... ok
+Trying service-identity ... ok
+Trying black ... ok
+Trying python-dotenv ... ok
+Trying python-daemon ... timedout
+Trying geopy ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-8l6f2ugq/geopy/setup.py'"'"'; __file__='"'"'/tmp/pip-install-8l6f2ugq/geopy/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-8l6f2ugq/geopy/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-8l6f2ugq/geopy/setup.py", line 41, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 1428: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying azure-mgmt-sql ... ok
+Trying python-levenshtein ... ok
+Trying idna-ssl ... ok
+Trying pyproj ... timedout
+Trying geoip2 ... ok
+Trying aws-xray-sdk ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kdrziz6m/aws-xray-sdk/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kdrziz6m/aws-xray-sdk/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kdrziz6m/aws-xray-sdk/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-kdrziz6m/aws-xray-sdk/setup.py", line 13, in <module>
+        long_description = read_md(path.join(CURRENT_DIR, 'README.md'))
+      File "/tmp/pip-install-kdrziz6m/aws-xray-sdk/setup.py", line 11, in <lambda>
+        read_md = lambda f: open(f, 'r').read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 11042: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying azure-mgmt-eventgrid ... ok
+Trying pycairo ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-7a3w1sfh/pycairo/setup.py'"'"'; __file__='"'"'/tmp/pip-install-7a3w1sfh/pycairo/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-mjy_frve/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/pycairo
+         cwd: /tmp/pip-install-7a3w1sfh/pycairo/
+    Complete output (15 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.8
+    creating build/lib.linux-x86_64-3.8/cairo
+    copying cairo/__init__.py -> build/lib.linux-x86_64-3.8/cairo
+    copying cairo/__init__.pyi -> build/lib.linux-x86_64-3.8/cairo
+    copying cairo/py.typed -> build/lib.linux-x86_64-3.8/cairo
+    running build_ext
+    Package cairo was not found in the pkg-config search path.
+    Perhaps you should add the directory containing `cairo.pc'
+    to the PKG_CONFIG_PATH environment variable
+    Package 'cairo', required by 'virtual:world', not found
+    Command '['pkg-config', '--print-errors', '--exists', 'cairo >= 1.13.1']' returned non-zero exit status 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-7a3w1sfh/pycairo/setup.py'"'"'; __file__='"'"'/tmp/pip-install-7a3w1sfh/pycairo/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-mjy_frve/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/pycairo Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying holidays ... ok
+Trying thinc ... timedout
+Trying pydocumentdb ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-6a0uwgz3/pydocumentdb/setup.py'"'"'; __file__='"'"'/tmp/pip-install-6a0uwgz3/pydocumentdb/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-6a0uwgz3/pydocumentdb/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-6a0uwgz3/pydocumentdb/setup.py", line 10, in <module>
+        with open("changelog.md", encoding="utf-8") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'changelog.md'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying spacy ... timedout
+Trying humanfriendly ... ok
+Trying factory-boy ... ok
+Trying watchdog ... ok
+Trying hiredis ... ok
+Trying azure-mgmt-datafactory ... ok
+Trying cymem ... ok
+Trying aws-sam-translator ... ok
+Trying phonenumbers ... ok
+Trying blis ... timedout
+Trying srsly ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-neokibpj/srsly/setup.py'"'"'; __file__='"'"'/tmp/pip-install-neokibpj/srsly/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-neokibpj/srsly/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-neokibpj/srsly/setup.py", line 7, in <module>
+        from Cython.Build import cythonize
+    ModuleNotFoundError: No module named 'Cython'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying supervisor ... ok
+Trying django-debug-toolbar ... ok
+Trying pypandoc ... ok
+Trying wasabi ... ok
+Trying progressbar2 ... ok
+Trying poyo ... ok
+Trying pyaml ... ok
+Trying tftpy ... ok
+Trying dateparser ... ok
+Trying structlog ... ok
+Trying pytest-timeout ... ok
+Trying humanize ... ok
+Trying pycountry ... ok
+Trying cheroot ... timedout
+Trying fiona ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-gkxyukjk/fiona/setup.py'"'"'; __file__='"'"'/tmp/pip-install-gkxyukjk/fiona/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-gkxyukjk/fiona/
+    Complete output (2 lines):
+    Failed to get options via gdal-config: [Errno 2] No such file or directory: 'gdal-config'
+    A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying rfc3986 ... ok
+Trying weasyprint ... ok
+Trying bumpversion ... ok
+Trying catalogue ... ok
+Trying portend ... timedout
+Trying pycares ... timedout
+Trying parameterized ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-e83j_tro/parameterized/setup.py'"'"'; __file__='"'"'/tmp/pip-install-e83j_tro/parameterized/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-e83j_tro/parameterized/
+    Complete output (9 lines):
+    /tmp/pip-install-e83j_tro/parameterized/setup.py:11: DeprecationWarning: 'U' mode is deprecated
+      long_description = open("README.rst", "U").read()
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-e83j_tro/parameterized/setup.py", line 11, in <module>
+        long_description = open("README.rst", "U").read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 5997: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying poetry ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp323res4m
+       cwd: /tmp/pip-install-lx97hjld/poetry
+  Complete output (16 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-8m1dtk74/overlay/lib/python3.8/site-packages/intreehooks.py", line 53, in get_requires_for_build_wheel
+      return self._backend.get_requires_for_build_sdist(config_settings)
+    File "/tmp/pip-build-env-8m1dtk74/overlay/lib/python3.8/site-packages/intreehooks.py", line 34, in _backend
+      proj = pytoml.load(f)
+    File "/tmp/pip-build-env-8m1dtk74/overlay/lib/python3.8/site-packages/pytoml/parser.py", line 11, in load
+      return loads(fin.read(), translate=translate, object_pairs_hook=object_pairs_hook, filename=getattr(fin, 'name', repr(fin)))
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 136: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp323res4m Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying objectpath ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-92xcaz4_/objectpath/setup.py'"'"'; __file__='"'"'/tmp/pip-install-92xcaz4_/objectpath/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-92xcaz4_/objectpath/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-92xcaz4_/objectpath/setup.py", line 7, in <module>
+        long_description = (read('README.rst') + '\n' + 'Download\n' '********\n')
+      File "/tmp/pip-install-92xcaz4_/objectpath/setup.py", line 5, in read
+        return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2334: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying ruamel-ordereddict ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l4l0x1c1/ruamel-ordereddict/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l4l0x1c1/ruamel-ordereddict/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-l4l0x1c1/ruamel-ordereddict/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-l4l0x1c1/ruamel-ordereddict/setup.py", line 173, in <module>
+        main()
+      File "/tmp/pip-install-l4l0x1c1/ruamel-ordereddict/setup.py", line 136, in main
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 15264: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying coloredlogs ... ok
+Trying koalas ... ok
+Trying certbot ... ok
+Trying fonttools ... ok
+Trying aiodns ... ok
+Trying validators ... ok
+Trying graphene ... ok
+Trying deprecation ... ok
+Trying paho-mqtt ... ok
+Trying ntlm-auth ... ok
+Trying theano ... ok
+Trying terminaltables ... ok
+Trying pint ... ok
+Trying qrcode ... ok
+Trying docker-py ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-51z1ree9/docker-py/setup.py'"'"'; __file__='"'"'/tmp/pip-install-51z1ree9/docker-py/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-51z1ree9/docker-py/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-51z1ree9/docker-py/setup.py", line 36, in <module>
+        long_description = readme_rst.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 152: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying sshtunnel ... ok
+Trying workalendar ... ok
+Trying mongoengine ... ok
+Trying pygtrie ... ok
+Trying imbalanced-learn ... ok
+Trying emoji ... ok
+Trying jplephem ... ok
+Trying sgp4 ... ok
+Trying skyfield ... ok
+Trying serpent ... ok
+Trying async-generator ... ok
+Trying ciso8601 ... ok
+Trying drf-yasg ... timedout
+Trying wandb ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-fzumadyx/wandb/setup.py'"'"'; __file__='"'"'/tmp/pip-install-fzumadyx/wandb/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-fzumadyx/wandb/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-fzumadyx/wandb/setup.py", line 7, in <module>
+        readme = readme_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 740: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying vcrpy ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kxl6gu1o/vcrpy/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kxl6gu1o/vcrpy/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kxl6gu1o/vcrpy/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-kxl6gu1o/vcrpy/setup.py", line 11, in <module>
+        long_description = open("README.rst", "r").read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xf0 in position 20: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying falcon ... ok
+Trying wikipedia ... ok
+Trying pyinstaller ... ok
+Trying pyinotify ... ok
+Trying sentencepiece ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-wv4_1v5l/sentencepiece/setup.py'"'"'; __file__='"'"'/tmp/pip-install-wv4_1v5l/sentencepiece/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-wv4_1v5l/sentencepiece/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-wv4_1v5l/sentencepiece/setup.py", line 29, in <module>
+        with codecs.open(os.path.join('..', 'VERSION'), 'r', 'utf-8') as f:
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/codecs.py", line 905, in open
+        file = builtins.open(filename, mode, buffering)
+    FileNotFoundError: [Errno 2] No such file or directory: '../VERSION'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying azure-cli-core ... ok
+Trying schema ... ok
+Trying hpack ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2me2db1s/hpack/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2me2db1s/hpack/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-2me2db1s/hpack/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2me2db1s/hpack/setup.py", line 34, in <module>
+        long_description=open('README.rst').read() + '\n\n' + open('HISTORY.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 1125: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying warlock ... ok
+Trying h2 ... ok
+Trying pytest-sugar ... ok
+Trying rjsmin ... ok
+Trying azureml-dataprep ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement azureml-dataprep (from versions: none)
+ERROR: No matching distribution found for azureml-dataprep
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying flake8-bugbear ... ok
+Trying argon2-cffi ... timedout
+Trying django-multiselectfield ... ok
+Trying selectors34 ... ok
+Trying httpretty ... ok
+Trying wptools ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-vu4s50y2/wptools/setup.py'"'"'; __file__='"'"'/tmp/pip-install-vu4s50y2/wptools/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-vu4s50y2/wptools/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-vu4s50y2/wptools/setup.py", line 6, in <module>
+        readme = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1026: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying google-cloud-automl ... ok
+Trying diskcache ... ok
+Trying safety ... ok
+Trying ftfy ... ok
+Trying django-countries ... ok
+Trying hashids ... ok
+Trying pdf2image ... ok
+Trying uvicorn ... ok
+Trying xxhash ... ok
+Trying rfc3987 ... ok
+Trying polib ... ok
+Trying azure-cli ... ok
+Trying google-cloud-bigquery-storage ... ok
+Trying humpty ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-0qboalue/humpty/setup.py'"'"'; __file__='"'"'/tmp/pip-install-0qboalue/humpty/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-0qboalue/humpty/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-0qboalue/humpty/setup.py", line 11, in <module>
+        README = open(os.path.join(here, 'README.rst')).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 355: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying python-stdnum ... ok
+Trying awsebcli ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-wtgkiu5z/awsebcli/setup.py'"'"'; __file__='"'"'/tmp/pip-install-wtgkiu5z/awsebcli/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-wtgkiu5z/awsebcli/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-wtgkiu5z/awsebcli/setup.py", line 59, in <module>
+        long_description=open('README.rst').read() + open('CHANGES.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 11727: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying bidict ... timedout
+Trying jws ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-983yrr_7/jws/setup.py'"'"'; __file__='"'"'/tmp/pip-install-983yrr_7/jws/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-983yrr_7/jws/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-983yrr_7/jws/setup.py", line 17, in <module>
+        long_description=read('README.md'),
+      File "/tmp/pip-install-983yrr_7/jws/setup.py", line 5, in read
+        return open(os.path.join(os.path.dirname(__file__), fname)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 500: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying instana ... ok
+Trying rcssmin ... ok
+Trying dulwich ... ok
+Trying intervaltree ... ok
+Trying javaproperties ... ok
+Trying phonenumberslite ... ok
+Trying signalfx ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement signalfx (from versions: none)
+ERROR: No matching distribution found for signalfx
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying email-validator ... ok
+Trying pyod ... ok
+Trying google-cloud-iam ... ok
+Trying ec2-metadata ... ok
+Trying pytest-benchmark ... ok
+Trying google-cloud-scheduler ... ok
+Trying aws-sam-cli ... ok
+Trying orjson ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-wc5yliq_/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'maturin>=0.7.7,<0.8'
+       cwd: None
+  Complete output (32 lines):
+  Collecting maturin<0.8,>=0.7.7
+    Using cached https://files.pythonhosted.org/packages/f9/c7/317e422594ab9c0d65b242a4641c1b07a975c9257ad33371bf866f9c27c9/maturin-0.7.7.tar.gz
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpu5uhjcu2
+         cwd: /tmp/pip-install-h1ror0kg/maturin
+    Complete output (18 lines):
+    Traceback (most recent call last):
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+        main()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+        json_out['return_val'] = hook(**hook_input['kwargs'])
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+        return hook(config_settings)
+      File "/tmp/pip-build-env-3mnmc386/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 146, in get_requires_for_build_wheel
+        return self._get_build_requires(config_settings, requirements=['wheel'])
+      File "/tmp/pip-build-env-3mnmc386/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 127, in _get_build_requires
+        self.run_setup()
+      File "/tmp/pip-build-env-3mnmc386/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 142, in run_setup
+        exec(compile(code, __file__, 'exec'), locals())
+      File "setup.py", line 75, in <module>
+        long_description = fp.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4488: ordinal not in range(128)
+    ----------------------------------------
+  ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpu5uhjcu2 Check the logs for full command output.
+  WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-wc5yliq_/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'maturin>=0.7.7,<0.8' Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying google-cloud-talent ... ok
+Trying google-cloud-datacatalog ... ok
+Trying google-cloud-datalabeling ... ok
+Trying google-cloud-webrisk ... ok
+Trying dash ... ok
+Trying starlette ... ok
+Trying parsimonious ... ok
+Trying smmap ... ok
+Trying icalendar ... ok
+Trying pytest-flask ... ok
+Trying publicsuffix ... ok
+Trying ephem ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-5e45ncw4/ephem/setup.py'"'"'; __file__='"'"'/tmp/pip-install-5e45ncw4/ephem/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-5e45ncw4/ephem/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-5e45ncw4/ephem/setup.py", line 40, in <module>
+        long_description = read('README.rst'),
+      File "/tmp/pip-install-5e45ncw4/ephem/setup.py", line 27, in read
+        return open(os.path.join(os.path.dirname(__file__), *filenames)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4572: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying tree-format ... ok
+Trying loguru ... ok
+Trying pytest-watch ... ok
+Trying pyreadline ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-vsjbr82t/pyreadline/setup.py'"'"'; __file__='"'"'/tmp/pip-install-vsjbr82t/pyreadline/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-vsjbr82t/pyreadline/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-vsjbr82t/pyreadline/setup.py", line 21, in <module>
+        exec(compile(open('pyreadline/release.py').read(), 'pyreadline/release.py', 'exec'))
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 1503: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying liac-arff ... ok
+Trying transitions ... ok
+Trying transformers ... ok
+Trying pdbpp ... ok
+Trying django-treebeard ... ok
+Trying objgraph ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-sfkdovc7/objgraph/setup.py'"'"'; __file__='"'"'/tmp/pip-install-sfkdovc7/objgraph/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-sfkdovc7/objgraph/
+    Complete output (11 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-sfkdovc7/objgraph/setup.py", line 2, in <module>
+        import doctest
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/doctest.py", line 100, in <module>
+        import pdb
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/_pdbpp_path_hack/pdb.py", line 5, in <module>
+        exec(compile(f.read(), pdb_path, 'exec'))
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pdb.py", line 23, in <module>
+        from fancycompleter import Completer, ConfigurableClass, Color
+    ModuleNotFoundError: No module named 'fancycompleter'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying wasmer ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement wasmer (from versions: none)
+ERROR: No matching distribution found for wasmer
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying routes ... ok
+Trying first ... ok
+Trying latexcodec ... ok
+Trying elastic-apm ... ok
+Trying requests-pkcs12 ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-40tb8sk5/requests-pkcs12/setup.py'"'"'; __file__='"'"'/tmp/pip-install-40tb8sk5/requests-pkcs12/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-40tb8sk5/requests-pkcs12/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-40tb8sk5/requests-pkcs12/setup.py", line 6, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2244: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pyshp ... ok
+Trying jieba ... ok
+Trying boxsdk ... ok
+Trying gremlinpython ... ok
+Trying mecab-python3 ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-tttssgxv/mecab-python3/setup.py'"'"'; __file__='"'"'/tmp/pip-install-tttssgxv/mecab-python3/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-tx4p1t8p/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/mecab-python3
+         cwd: /tmp/pip-install-tttssgxv/mecab-python3/
+    Complete output (9 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.8
+    creating build/lib.linux-x86_64-3.8/MeCab
+    copying src/MeCab/__init__.py -> build/lib.linux-x86_64-3.8/MeCab
+    running build_ext
+    error: [Errno 2] No such file or directory: 'mecab-config'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-tttssgxv/mecab-python3/setup.py'"'"'; __file__='"'"'/tmp/pip-install-tttssgxv/mecab-python3/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-tx4p1t8p/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/mecab-python3 Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying aiohttp-cors ... ok
+Trying combo ... ok
+Trying zeroconf ... ok
+Trying fasttext ... timedout
+Trying ffmpeg-quality-metrics ... ok
+Trying fastapi ... timedout
+Trying recordclass ... ok
+Trying tensorflow-probability ... ok
+Trying pyahocorasick ... ok
+Trying trains ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement trains (from versions: none)
+ERROR: No matching distribution found for trains
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying ncclient ... ok
+Trying verboselogs ... ok
+Trying googletrans ... ok
+Trying easy-thumbnails ... ok
+Trying eth-typing ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-fg71h30v/eth-typing/setup.py'"'"'; __file__='"'"'/tmp/pip-install-fg71h30v/eth-typing/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-fg71h30v/eth-typing/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-fg71h30v/eth-typing/setup.py", line 42, in <module>
+        long_description = readme.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2071: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-heroku ... ok
+Trying dynaconf ... ok
+Trying tinydb ... ok
+Trying scikit-surprise ... timedout
+Trying oss2 ... ok
+Trying nteract-scrapbook ... ok
+Trying web3 ... ok
+Trying python-rapidjson ... timedout
+Trying sphinx-autodoc-typehints ... timedout
+Trying stestr ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kjtse694/stestr/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kjtse694/stestr/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kjtse694/stestr/
+    Complete output (24 lines):
+    ERROR:root:Error parsing
+    Traceback (most recent call last):
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/core.py", line 96, in pbr
+        attrs = util.cfg_to_args(path, dist.script_args)
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/util.py", line 271, in cfg_to_args
+        pbr.hooks.setup_hook(config)
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/hooks/__init__.py", line 25, in setup_hook
+        metadata_config.run()
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/hooks/base.py", line 27, in run
+        self.hook()
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/hooks/metadata.py", line 25, in hook
+        self.config['version'] = packaging.get_version(
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/packaging.py", line 858, in get_version
+        version = _get_version_from_pkg_metadata(package_name)
+      File "/tmp/pip-install-kjtse694/stestr/.eggs/pbr-5.4.4-py3.8.egg/pbr/packaging.py", line 826, in _get_version_from_pkg_metadata
+        pkg_metadata = email.message_from_file(pkg_metadata_file)
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/email/__init__.py", line 54, in message_from_file
+        return Parser(*args, **kws).parse(fp)
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/email/parser.py", line 53, in parse
+        data = fp.read(8192)
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 1391: ordinal not in range(128)
+    error in setup command: Error parsing /tmp/pip-install-kjtse694/stestr/setup.cfg: UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 1391: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying fastcluster ... timedout
+Trying pygeohash ... ok
+Trying annoy ... timedout
+Trying httpie ... ok
+Trying cron-descriptor ... ok
+Trying xmlschema ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-c7bve3me/xmlschema/setup.py'"'"'; __file__='"'"'/tmp/pip-install-c7bve3me/xmlschema/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-c7bve3me/xmlschema/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-c7bve3me/xmlschema/setup.py", line 18, in <module>
+        long_description = readme.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 4899: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-pipeline ... ok
+Trying records ... ok
+Trying py-spy ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement py-spy (from versions: none)
+ERROR: No matching distribution found for py-spy
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying filetype ... ok
+Trying pytest-mypy ... timedout
+Trying mahotas ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-yb0ga1cn/mahotas/setup.py'"'"'; __file__='"'"'/tmp/pip-install-yb0ga1cn/mahotas/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-p9mjk5w8/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/mahotas
+         cwd: /tmp/pip-install-yb0ga1cn/mahotas/
+    Complete output (132 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.8
+    creating build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/center_of_mass.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/histogram.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/surf.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/features_cli.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/_filters.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/bbox.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/moments.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/edge.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/__init__.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/tas.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/texture.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/lbp.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/bwperim.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/morph.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/thresholding.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/colors.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/distance.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/resize.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/interpolate.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/mahotas_version.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/thin.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/segmentation.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/polygon.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/convolve.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/internal.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/labeled.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/stretch.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/freeimage.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/zernike.py -> build/lib.linux-x86_64-3.8/mahotas
+    copying mahotas/euler.py -> build/lib.linux-x86_64-3.8/mahotas
+    creating build/lib.linux-x86_64-3.8/mahotas/io
+    copying mahotas/io/__init__.py -> build/lib.linux-x86_64-3.8/mahotas/io
+    copying mahotas/io/pil.py -> build/lib.linux-x86_64-3.8/mahotas/io
+    copying mahotas/io/freeimage.py -> build/lib.linux-x86_64-3.8/mahotas/io
+    creating build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/surf.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/moments.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/__init__.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/tas.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/texture.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/lbp.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/shape.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    copying mahotas/features/zernike.py -> build/lib.linux-x86_64-3.8/mahotas/features
+    creating build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/wavelet_compress.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/surf_luispedro.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/edge_demo.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/wally.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/__init__.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/surf_gaussians.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/thresholding.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/distance.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/morphology.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/nuclear.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/superpixels.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    copying mahotas/demos/nuclear_distance_watershed.py -> build/lib.linux-x86_64-3.8/mahotas/demos
+    creating build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_label.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_io.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_stretch.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_thresholding.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_distance.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_mahotas.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_watershed.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_morph.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/__init__.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_interpolate.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_surf.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_majority.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_freeimage.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_citation.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_internal.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_bbox.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_zernike.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_thin.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_surf_regression.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/pymorph_copy.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_hitmiss.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_segmentation.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_histogram.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_filters.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_colors.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_demos.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_features_shape.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_close_holes.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_texture.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_imresize.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_euler.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_bwperim.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_lbp.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_tas.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_gvoronoi.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_template_match.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_convolve.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_polygon.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_find.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_median_filter.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_dilate_erode.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_moments.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_center_of_mass.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_mean_filter.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/utils.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_labeled.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    copying mahotas/tests/test_edge.py -> build/lib.linux-x86_64-3.8/mahotas/tests
+    creating build/lib.linux-x86_64-3.8/mahotas/demos/data
+    copying mahotas/demos/data/nuclear.png -> build/lib.linux-x86_64-3.8/mahotas/demos/data
+    copying mahotas/demos/data/luispedro.jpg -> build/lib.linux-x86_64-3.8/mahotas/demos/data
+    copying mahotas/demos/data/lena.jpg -> build/lib.linux-x86_64-3.8/mahotas/demos/data
+    copying mahotas/demos/data/DepartmentStore.jpg -> build/lib.linux-x86_64-3.8/mahotas/demos/data
+    creating build/lib.linux-x86_64-3.8/mahotas/tests/data
+    copying mahotas/tests/data/1bpp.bmp -> build/lib.linux-x86_64-3.8/mahotas/tests/data
+    copying mahotas/tests/data/rgba.png -> build/lib.linux-x86_64-3.8/mahotas/tests/data
+    copying mahotas/tests/data/luispedro.npy -> build/lib.linux-x86_64-3.8/mahotas/tests/data
+    copying mahotas/tests/data/determinant_zero.png -> build/lib.linux-x86_64-3.8/mahotas/tests/data
+    running build_ext
+    building 'mahotas._bbox' extension
+    creating build/temp.linux-x86_64-3.8
+    creating build/temp.linux-x86_64-3.8/mahotas
+    gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DNPY_NO_DEPRECATED_API=NPY_1_7_API_VERSION -DPY_ARRAY_UNIQUE_SYMBOL=Mahotas_PyArray_API_Symbol -I[] -I/home/inada-n/pypi-ansi/.venv/include -I/home/inada-n/pyenv/versions/3.8.1/include/python3.8 -c mahotas/_bbox.cpp -o build/temp.linux-x86_64-3.8/mahotas/_bbox.o
+    In file included from mahotas/numpypp/array.hpp:17,
+                     from mahotas/_bbox.cpp:11:
+    mahotas/numpypp/numpy.hpp:11:10: fatal error: numpy/ndarrayobject.h: No such file or directory
+       11 | #include <numpy/ndarrayobject.h>
+          |          ^~~~~~~~~~~~~~~~~~~~~~~
+    compilation terminated.
+    error: command 'gcc' failed with exit status 1
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-yb0ga1cn/mahotas/setup.py'"'"'; __file__='"'"'/tmp/pip-install-yb0ga1cn/mahotas/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-p9mjk5w8/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/mahotas Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying stackprinter ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-lp8c3vjw/stackprinter/setup.py'"'"'; __file__='"'"'/tmp/pip-install-lp8c3vjw/stackprinter/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-lp8c3vjw/stackprinter/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-lp8c3vjw/stackprinter/setup.py", line 4, in <module>
+        long_description = fh.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xf0 in position 2444: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying trafaret ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-qy2gocvk/trafaret/setup.py'"'"'; __file__='"'"'/tmp/pip-install-qy2gocvk/trafaret/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-qy2gocvk/trafaret/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-qy2gocvk/trafaret/setup.py", line 21, in <module>
+        long_description=read('README.rst'),
+      File "/tmp/pip-install-qy2gocvk/trafaret/setup.py", line 8, in read
+        return open(os.path.join(os.path.dirname(__file__), fname)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1665: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying wsgi-request-logger ... ok
+Trying pytorch-transformers ... ok
+Trying parsley ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-_6g1ppdg/parsley/setup.py'"'"'; __file__='"'"'/tmp/pip-install-_6g1ppdg/parsley/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-_6g1ppdg/parsley/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-_6g1ppdg/parsley/setup.py", line 16, in <module>
+        long_description=open("README").read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 3802: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying concurrentloghandler ... ok
+Trying anytree ... ok
+Trying eth-hash ... ok
+Trying splinter ... ok
+Trying pygetwindow ... ok
+Trying pylama ... ok
+Trying sphinx-autobuild ... ok
+Trying pip-licenses ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-ipeelnhq/pip-licenses/setup.py'"'"'; __file__='"'"'/tmp/pip-install-ipeelnhq/pip-licenses/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-ipeelnhq/pip-licenses/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-ipeelnhq/pip-licenses/setup.py", line 34, in <module>
+        from piplicenses import (__pkgname__ as PKG_NAME, __version__ as VERSION,
+      File "/tmp/pip-install-ipeelnhq/pip-licenses/piplicenses.py", line 42, in <module>
+        from prettytable import PrettyTable
+    ModuleNotFoundError: No module named 'prettytable'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying draftjs-exporter ... ok
+Trying tifffile ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-16ps97xo/tifffile/setup.py'"'"'; __file__='"'"'/tmp/pip-install-16ps97xo/tifffile/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-16ps97xo/tifffile/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-16ps97xo/tifffile/setup.py", line 17, in <module>
+        code = fh.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21427: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying injector ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmps4493_q6
+       cwd: /tmp/pip-install-yvnoeo_e/injector
+  Complete output (29 lines):
+  setup.py:42: ImportWarning: Could not locate pandoc, using Markdown long_description.
+    warnings.warn('Could not locate pandoc, using Markdown long_description.', ImportWarning)
+  Traceback (most recent call last):
+    File "setup.py", line 38, in <module>
+      import pypandoc
+  ModuleNotFoundError: No module named 'pypandoc'
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-sa22j1s9/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-sa22j1s9/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-sa22j1s9/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-sa22j1s9/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 44, in <module>
+      long_description = f.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 1076: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmps4493_q6 Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying halo ... ok
+Trying textdistance ... ok
+Trying auth0-python ... ok
+Trying pem ... ok
+Trying requests-html ... ok
+Trying pyarabic ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-3fv7fsu6/pyarabic/setup.py'"'"'; __file__='"'"'/tmp/pip-install-3fv7fsu6/pyarabic/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-3fv7fsu6/pyarabic/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-3fv7fsu6/pyarabic/setup.py", line 16, in <module>
+        long_description = readme(),
+      File "/tmp/pip-install-3fv7fsu6/pyarabic/setup.py", line 8, in readme
+        return f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xd9 in position 226: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying yappi ... ok
+Trying property-manager ... ok
+Trying django-mathfilters ... ok
+Trying pymc3 ... ok
+Trying cybox ... ok
+Trying confuse ... ok
+Trying algoliasearch ... ok
+Trying eth-account ... ok
+Trying hexbytes ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-nscbg6h7/hexbytes/setup.py'"'"'; __file__='"'"'/tmp/pip-install-nscbg6h7/hexbytes/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-nscbg6h7/hexbytes/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-nscbg6h7/hexbytes/setup.py", line 44, in <module>
+        long_description = readme.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2807: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying xdg ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-18zl2ec4/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'poetry>=0.12'
+       cwd: None
+  Complete output (30 lines):
+  Collecting poetry>=0.12
+    Using cached https://files.pythonhosted.org/packages/eb/98/a598bb2663e0e43557a99a243ebd21b27b1fc07d2c146b2554aa45ace5dc/poetry-1.0.3.tar.gz
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpel9conh4
+         cwd: /tmp/pip-install-omvst12_/poetry
+    Complete output (16 lines):
+    Traceback (most recent call last):
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+        main()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+        json_out['return_val'] = hook(**hook_input['kwargs'])
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+        return hook(config_settings)
+      File "/tmp/pip-build-env-tbcg_9ai/overlay/lib/python3.8/site-packages/intreehooks.py", line 53, in get_requires_for_build_wheel
+        return self._backend.get_requires_for_build_sdist(config_settings)
+      File "/tmp/pip-build-env-tbcg_9ai/overlay/lib/python3.8/site-packages/intreehooks.py", line 34, in _backend
+        proj = pytoml.load(f)
+      File "/tmp/pip-build-env-tbcg_9ai/overlay/lib/python3.8/site-packages/pytoml/parser.py", line 11, in load
+        return loads(fin.read(), translate=translate, object_pairs_hook=object_pairs_hook, filename=getattr(fin, 'name', repr(fin)))
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 136: ordinal not in range(128)
+    ----------------------------------------
+  ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpel9conh4 Check the logs for full command output.
+  WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-18zl2ec4/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'poetry>=0.12' Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying html ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-lne4hapf/html/setup.py'"'"'; __file__='"'"'/tmp/pip-install-lne4hapf/html/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-lne4hapf/html/
+    Complete output (17 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/__init__.py", line 20, in <module>
+        from setuptools.dist import Distribution, Feature
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/dist.py", line 34, in <module>
+        from setuptools.depends import Require
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/depends.py", line 7, in <module>
+        from .py33compat import Bytecode
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/py33compat.py", line 11, in <module>
+        from setuptools.extern.six.moves import html_parser
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/_vendor/six.py", line 92, in __get__
+        result = self._resolve()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/_vendor/six.py", line 115, in _resolve
+        return _import_module(self.mod)
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/_vendor/six.py", line 82, in _import_module
+        __import__(name)
+    ModuleNotFoundError: No module named 'html.parser'; 'html' is not a package
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying eth-rlp ... ok
+Trying nose-progressive ... ok
+Trying dataproperty ... ok
+Trying kappa ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-o8b2qg9n/kappa/setup.py'"'"'; __file__='"'"'/tmp/pip-install-o8b2qg9n/kappa/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-o8b2qg9n/kappa/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-o8b2qg9n/kappa/setup.py", line 54, in <module>
+        run_setup()
+      File "/tmp/pip-install-o8b2qg9n/kappa/setup.py", line 22, in run_setup
+        long_description=open_file('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2339: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying inquirer ... ok
+Trying mbstrdecoder ... ok
+Trying django-compat ... ok
+Trying pyspark-stubs ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-ft_1n0bw/pyspark-stubs/setup.py'"'"'; __file__='"'"'/tmp/pip-install-ft_1n0bw/pyspark-stubs/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-ft_1n0bw/pyspark-stubs/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-ft_1n0bw/pyspark-stubs/setup.py", line 29, in <module>
+        long_description=(open('README.rst').read() if os.path.exists('README.rst')
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 3481: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying click-spinner ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-8yol343x/click-spinner/setup.py'"'"'; __file__='"'"'/tmp/pip-install-8yol343x/click-spinner/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-8yol343x/click-spinner/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-8yol343x/click-spinner/setup.py", line 6, in <module>
+        readme = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 373: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying static3 ... ok
+Trying zappa ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-b24zj_2x/zappa/setup.py'"'"'; __file__='"'"'/tmp/pip-install-b24zj_2x/zappa/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-b24zj_2x/zappa/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-b24zj_2x/zappa/setup.py", line 8, in <module>
+        long_description = readme_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe3 in position 73658: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pytest-factoryboy ... ok
+Trying cos-python-sdk-v5 ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-70c9zu2i/cos-python-sdk-v5/setup.py'"'"'; __file__='"'"'/tmp/pip-install-70c9zu2i/cos-python-sdk-v5/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-70c9zu2i/cos-python-sdk-v5/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-70c9zu2i/cos-python-sdk-v5/setup.py", line 25, in <module>
+        long_description=long_description(),
+      File "/tmp/pip-install-70c9zu2i/cos-python-sdk-v5/setup.py", line 14, in long_description
+        return fileobj.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe4 in position 340: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying flake8-string-format ... ok
+Trying wagtail ... ok
+Trying deap ... ok
+Trying python-twitter ... ok
+Trying awesome-slugify ... ok
+Trying eeweather ... ok
+Trying exchangelib ... ok
+Trying pep517 ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-_1ewck_t/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'flit_core >=2,<3'
+       cwd: None
+  Complete output (27 lines):
+  Collecting flit_core<3,>=2
+    Using cached https://files.pythonhosted.org/packages/77/72/5dda5dc417a4e702e0d7e4a77e9802792a0e4a2daec2aeed915ead7db477/flit_core-2.2.0.tar.gz
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'done'
+      Preparing wheel metadata: started
+      Preparing wheel metadata: finished with status 'done'
+  Collecting pytoml (from flit_core<3,>=2)
+    Using cached https://files.pythonhosted.org/packages/f4/ba/98ee2054a2d7b8bebd367d442e089489250b6dc2aee558b000e961467212/pytoml-0.1.21.tar.gz
+  Skipping bdist_wheel for flit-core, due to binaries being disabled for it.
+  Installing collected packages: pytoml, flit-core
+    Running setup.py install for pytoml: started
+      Running setup.py install for pytoml: finished with status 'done'
+    Running setup.py install for flit-core: started
+      Running setup.py install for flit-core: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-zxmf67oh/flit-core/setup.py'"'"'; __file__='"'"'/tmp/pip-install-zxmf67oh/flit-core/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-mnf4iq66/install-record.txt --single-version-externally-managed --prefix /tmp/pip-build-env-_1ewck_t/overlay --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/flit-core
+           cwd: /tmp/pip-install-zxmf67oh/flit-core/
+      Complete output (3 lines):
+      Traceback (most recent call last):
+        File "<string>", line 1, in <module>
+      ModuleNotFoundError: No module named 'setuptools'
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-zxmf67oh/flit-core/setup.py'"'"'; __file__='"'"'/tmp/pip-install-zxmf67oh/flit-core/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-mnf4iq66/install-record.txt --single-version-externally-managed --prefix /tmp/pip-build-env-_1ewck_t/overlay --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/flit-core Check the logs for full command output.
+  WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-_1ewck_t/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'flit_core >=2,<3' Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-jet ... ok
+Trying pypika ... ok
+Trying pyroma ... ok
+Trying edx-organizations ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-jupbr2jm/edx-organizations/setup.py'"'"'; __file__='"'"'/tmp/pip-install-jupbr2jm/edx-organizations/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-jupbr2jm/edx-organizations/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-jupbr2jm/edx-organizations/setup.py", line 34, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1256: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-watchman ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-yzpwqun8/django-watchman/setup.py'"'"'; __file__='"'"'/tmp/pip-install-yzpwqun8/django-watchman/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-yzpwqun8/django-watchman/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-yzpwqun8/django-watchman/setup.py", line 23, in <module>
+        readme = open('README.rst').read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1074: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying requests-async ... ok
+Trying opentracing-instrumentation ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-dg2o2f_8/opentracing-instrumentation/setup.py'"'"'; __file__='"'"'/tmp/pip-install-dg2o2f_8/opentracing-instrumentation/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-dg2o2f_8/opentracing-instrumentation/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-dg2o2f_8/opentracing-instrumentation/setup.py", line 4, in <module>
+        long_description = fh.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 740: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying multiaddr ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-w4ekxxby/multiaddr/setup.py'"'"'; __file__='"'"'/tmp/pip-install-w4ekxxby/multiaddr/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-w4ekxxby/multiaddr/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-w4ekxxby/multiaddr/setup.py", line 12, in <module>
+        readme = readme_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 2674: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying keyboard ... ok
+Trying lzstring ... ok
+Trying bok-choy ... ok
+Trying pilkit ... ok
+Trying turicreate ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-mmc9l9yx/turicreate/setup.py'"'"'; __file__='"'"'/tmp/pip-install-mmc9l9yx/turicreate/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-9bh37zth/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/turicreate
+         cwd: /tmp/pip-install-mmc9l9yx/turicreate/
+    Complete output (28 lines):
+    running install
+    
+    
+    
+            ==================================================================================
+            TURICREATE ERROR
+    
+            If you see this message, pip install did not find an available binary package
+            for your system.
+    
+            Supported Platforms:
+                * macOS 10.12+ x86_64.
+                * Linux x86_64 (including WSL on Windows 10).
+    
+            Support Python Versions:
+                * 2.7
+                * 3.5
+                * 3.6
+                * 3.7
+    
+    
+            Another possible cause of this error is an outdated pip version. Try:
+                `pip install -U pip`
+    
+            ==================================================================================
+    
+    
+    
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-mmc9l9yx/turicreate/setup.py'"'"'; __file__='"'"'/tmp/pip-install-mmc9l9yx/turicreate/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-9bh37zth/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/turicreate Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying edx-completion ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-eg2qzcyg/edx-completion/setup.py'"'"'; __file__='"'"'/tmp/pip-install-eg2qzcyg/edx-completion/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-eg2qzcyg/edx-completion/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-eg2qzcyg/edx-completion/setup.py", line 70, in <module>
+        CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4219: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying ratelimiter ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-b6q9bqnx/ratelimiter/setup.py'"'"'; __file__='"'"'/tmp/pip-install-b6q9bqnx/ratelimiter/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-b6q9bqnx/ratelimiter/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-b6q9bqnx/ratelimiter/setup.py", line 43, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2357: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying graphyte ... ok
+Trying gtts ... timedout
+Trying ipfshttpclient ... timedout
+Trying pytest-bdd ... ok
+Trying pprintpp ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-zmpfpgzc/pprintpp/setup.py'"'"'; __file__='"'"'/tmp/pip-install-zmpfpgzc/pprintpp/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-zmpfpgzc/pprintpp/
+    Complete output (9 lines):
+    /tmp/pip-install-zmpfpgzc/pprintpp/setup.py:11: DeprecationWarning: 'U' mode is deprecated
+      long_description = open("README.rst", "U").read()
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-zmpfpgzc/pprintpp/setup.py", line 11, in <module>
+        long_description = open("README.rst", "U").read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 3453: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-log-request-id ... ok
+Trying django-imagekit ... ok
+Trying py-mini-racer ... timedout
+Trying oci ... ok
+Trying aiostream ... ok
+Trying janome ... timedout
+Trying qtpy ... ok
+Trying dacite ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpass2qjdi
+       cwd: /tmp/pip-install-22lbslb0/dacite
+  Complete output (20 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-v2n61vdz/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-v2n61vdz/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-v2n61vdz/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-v2n61vdz/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 7, in <module>
+      long_description=open("README.md").read(),
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 12182: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpass2qjdi Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying ocspresponder ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-g0kfynid/ocspresponder/setup.py'"'"'; __file__='"'"'/tmp/pip-install-g0kfynid/ocspresponder/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-g0kfynid/ocspresponder/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-g0kfynid/ocspresponder/setup.py", line 8, in <module>
+        with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/codecs.py", line 905, in open
+        file = builtins.open(filename, mode, buffering)
+    FileNotFoundError: [Errno 2] No such file or directory: '/tmp/pip-install-g0kfynid/ocspresponder/README.md'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying vadersentiment ... ok
+Trying mixer ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-bua4927n/mixer/setup.py'"'"'; __file__='"'"'/tmp/pip-install-bua4927n/mixer/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-bua4927n/mixer/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-bua4927n/mixer/setup.py", line 44, in <module>
+        long_description=_read('README.rst'),
+      File "/tmp/pip-install-bua4927n/mixer/setup.py", line 17, in _read
+        return open(op.join(op.dirname(__file__), fname)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 1209: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying faulthandler ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-k5ghrjvq/faulthandler/setup.py'"'"'; __file__='"'"'/tmp/pip-install-k5ghrjvq/faulthandler/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-k5ghrjvq/faulthandler/
+    Complete output (1 lines):
+    ERROR: faulthandler is a builtin module since Python 3.3
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying kivy ... timedout
+Trying tflearn ... ok
+Trying aioopenssl ... ok
+Trying freetype-py ... ok
+Trying pytd ... ok
+Trying bump2version ... ok
+Trying pybase62 ... ok
+Trying aiosasl ... ok
+Trying unicode-slugify ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-m2xzdl8u/unicode-slugify/setup.py'"'"'; __file__='"'"'/tmp/pip-install-m2xzdl8u/unicode-slugify/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-m2xzdl8u/unicode-slugify/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-m2xzdl8u/unicode-slugify/setup.py", line 7, in <module>
+        long_description=open('README.md').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 361: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying sqlitedict ... ok
+Trying telethon ... ok
+Trying delegator-py ... ok
+Trying jsii ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp2nafhoew
+       cwd: /tmp/pip-install-onwwl9gg/jsii
+  Complete output (20 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-3f4cm7mc/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-3f4cm7mc/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-3f4cm7mc/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-3f4cm7mc/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 10, in <module>
+      long_description = fp.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 6925: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp2nafhoew Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying featuretools ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-sv6x7k2b/featuretools/setup.py'"'"'; __file__='"'"'/tmp/pip-install-sv6x7k2b/featuretools/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-sv6x7k2b/featuretools/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-sv6x7k2b/featuretools/setup.py", line 7, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 294: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying win-unicode-console ... ok
+Trying httpx ... ok
+Trying aioxmpp ... ok
+Trying pycld2 ... timedout
+Trying sudachipy ... ok
+Trying gcovr ... ok
+Trying publication ... timedout
+Trying colorful ... ok
+Trying yamale ... ok
+Trying pytablewriter ... ok
+Trying requests-credssp ... ok
+Trying dbt ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-dkjfl2p6/dbt/setup.py'"'"'; __file__='"'"'/tmp/pip-install-dkjfl2p6/dbt/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-dkjfl2p6/dbt/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-dkjfl2p6/dbt/setup.py", line 17, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1860: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying lazy-import ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-j1k0t3a3/lazy-import/setup.py'"'"'; __file__='"'"'/tmp/pip-install-j1k0t3a3/lazy-import/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-j1k0t3a3/lazy-import/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-j1k0t3a3/lazy-import/setup.py", line 6, in <module>
+        readme = infile.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 621: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-redshift-backend ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-xdlcv_hk/django-redshift-backend/setup.py'"'"'; __file__='"'"'/tmp/pip-install-xdlcv_hk/django-redshift-backend/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-xdlcv_hk/django-redshift-backend/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-xdlcv_hk/django-redshift-backend/setup.py", line 26, in <module>
+        long_description=read('README.rst') + read('CHANGES.rst'),
+      File "/tmp/pip-install-xdlcv_hk/django-redshift-backend/setup.py", line 13, in read
+        return f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 1961: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying times ... ok
+Trying flask-mongoengine ... timedout
+Trying django-webtest ... ok
+Trying spyder ... ok
+Trying salesforce-fuelsdk ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-sto1zm9t/salesforce-fuelsdk/setup.py'"'"'; __file__='"'"'/tmp/pip-install-sto1zm9t/salesforce-fuelsdk/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-sto1zm9t/salesforce-fuelsdk/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-sto1zm9t/salesforce-fuelsdk/setup.py", line 4, in <module>
+        readme = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4122: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying spyne ... ok
+Trying niet ... ok
+Trying flake8-mypy ... ok
+Trying pytrends ... ok
+Trying pytelegrambotapi ... ok
+Trying lomond ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-zjwstar3/lomond/setup.py'"'"'; __file__='"'"'/tmp/pip-install-zjwstar3/lomond/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-zjwstar3/lomond/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-zjwstar3/lomond/setup.py", line 23, in <module>
+        long_desc = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 1825: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying py2-ipaddress ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-allvil8i/py2-ipaddress/setup.py'"'"'; __file__='"'"'/tmp/pip-install-allvil8i/py2-ipaddress/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-allvil8i/py2-ipaddress/
+    Complete output (1 lines):
+    py2-ipaddress: For Python 3.x, please use the official ipaddress module.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying parquet ... ok
+Trying flake8-future-import ... ok
+Trying line-bot-sdk ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-idquobbj/line-bot-sdk/setup.py'"'"'; __file__='"'"'/tmp/pip-install-idquobbj/line-bot-sdk/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-idquobbj/line-bot-sdk/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-idquobbj/line-bot-sdk/setup.py", line 56, in <module>
+        long_description = fd.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 15475: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying yarn-api-client ... ok
+Trying conllu ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-pbxx37ey/conllu/setup.py'"'"'; __file__='"'"'/tmp/pip-install-pbxx37ey/conllu/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-pbxx37ey/conllu/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-pbxx37ey/conllu/setup.py", line 13, in <module>
+        long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 9986: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying glean-parser ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-1zx7b21s/glean-parser/setup.py'"'"'; __file__='"'"'/tmp/pip-install-1zx7b21s/glean-parser/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-1zx7b21s/glean-parser/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-1zx7b21s/glean-parser/setup.py", line 24, in <module>
+        history = history_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2639: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying you-get ... ok
+Trying vistir ... ok
+Trying pyjq ... timedout
+Trying google-endpoints-api-management ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-n36xtvpb/google-endpoints-api-management/setup.py'"'"'; __file__='"'"'/tmp/pip-install-n36xtvpb/google-endpoints-api-management/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-n36xtvpb/google-endpoints-api-management/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-n36xtvpb/google-endpoints-api-management/setup.py", line 59, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 346: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying py-vapid ... ok
+Trying python2-pythondialog ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-5im3qkl0/python2-pythondialog/setup.py'"'"'; __file__='"'"'/tmp/pip-install-5im3qkl0/python2-pythondialog/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-5im3qkl0/python2-pythondialog/
+    Complete output (8 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-5im3qkl0/python2-pythondialog/setup.py", line 32, in <module>
+        from dialog import __version__ as VERSION
+      File "/tmp/pip-install-5im3qkl0/python2-pythondialog/dialog.py", line 264
+        except OSError, e:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pytype ... ok
+Trying ccxt ... ok
+Trying rouge ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kzrg87n3/rouge/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kzrg87n3/rouge/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kzrg87n3/rouge/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-kzrg87n3/rouge/setup.py", line 21, in <module>
+        long_description=open("README.md").read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 2990: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying aws-cdk-aws-ec2 ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpmk393o8m
+       cwd: /tmp/pip-install-liyii7mx/aws-cdk-aws-ec2
+  Complete output (18 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-s2mceg54/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-s2mceg54/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-s2mceg54/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 57, in <module>
+      kwargs['long_description'] = fp.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 5763: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpmk393o8m Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying natto-py ... ok
+Trying certipy ... ok
+Trying pyrogram ... ok
+Trying pyinstrument ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-q90d1uqs/pyinstrument/setup.py'"'"'; __file__='"'"'/tmp/pip-install-q90d1uqs/pyinstrument/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-q90d1uqs/pyinstrument/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-q90d1uqs/pyinstrument/setup.py", line 54, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 6210: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pyhdb ... ok
+Trying characteristic ... ok
+Trying requirementslib ... timedout
+Trying pyscss ... ok
+Trying django-cleanup ... ok
+Trying lupa ... timedout
+Trying python-statemachine ... ok
+Trying ushlex ... ok
+Trying inject ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-cm24cote/inject/setup.py'"'"'; __file__='"'"'/tmp/pip-install-cm24cote/inject/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-cm24cote/inject/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-cm24cote/inject/setup.py", line 22, in <module>
+        long_description=read_description(),
+      File "/tmp/pip-install-cm24cote/inject/setup.py", line 9, in read_description
+        return f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 469: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying executor ... ok
+Trying pyct ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kmy1059j/pyct/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kmy1059j/pyct/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kmy1059j/pyct/
+    Complete output (32 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-kmy1059j/pyct/setup.py", line 7, in <module>
+        setup()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/__init__.py", line 145, in setup
+        return distutils.core.setup(**attrs)
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/distutils/core.py", line 121, in setup
+        dist.parse_config_files()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/dist.py", line 699, in parse_config_files
+        parse_configuration(self, self.command_options,
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 120, in parse_configuration
+        meta.parse()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 425, in parse
+        section_parser_method(section_options)
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 398, in parse_section
+        self[name] = value
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 183, in __setitem__
+        value = parser(value)
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 513, in _parse_version
+        version = self._parse_attr(value, self.package_dir)
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/setuptools/config.py", line 348, in _parse_attr
+        module = import_module(module_name)
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+      File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'param'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying inflector ... ok
+Trying ariadne ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpt50qrkjb
+       cwd: /tmp/pip-install-2zgn75dy/ariadne
+  Complete output (20 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-6eh_q55o/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-6eh_q55o/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-6eh_q55o/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-6eh_q55o/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 19, in <module>
+      README = f.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4912: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpt50qrkjb Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-sortedm2m ... ok
+Trying benchexec ... timedout
+Trying qtawesome ... ok
+Trying hexdump ... ok
+Trying questionary ... ok
+Trying gender-guesser ... ok
+Trying doc-warden ... ok
+Trying aws-cdk-aws-applicationautoscaling ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp0e9yu9nr
+       cwd: /tmp/pip-install-_dk053t6/aws-cdk-aws-applicationautoscaling
+  Complete output (18 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-g7m56lzd/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-g7m56lzd/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-g7m56lzd/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 56, in <module>
+      kwargs['long_description'] = fp.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2720: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp0e9yu9nr Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pretrainedmodels ... ok
+Trying art ... ok
+Trying proxy-py ... ok
+Trying uproot ... ok
+Trying tslearn ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-xhmtr6fn/tslearn/setup.py'"'"'; __file__='"'"'/tmp/pip-install-xhmtr6fn/tslearn/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-xhmtr6fn/tslearn/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-xhmtr6fn/tslearn/setup.py", line 3, in <module>
+        import numpy
+    ModuleNotFoundError: No module named 'numpy'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying talon ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-nhug8i4p/talon/setup.py'"'"'; __file__='"'"'/tmp/pip-install-nhug8i4p/talon/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-nhug8i4p/talon/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-nhug8i4p/talon/setup.py", line 35, in <module>
+        long_description=open("README.rst").read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 475: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying maya ... ok
+Trying dash-bootstrap-components ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpa5ww8bum
+       cwd: /tmp/pip-install-dwq6osqb/dash-bootstrap-components
+  Complete output (22 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-97br1lw6/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-97br1lw6/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-97br1lw6/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-97br1lw6/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 30, in <module>
+      long_description=_get_long_description(),
+    File "setup.py", line 23, in _get_long_description
+      return f.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 436: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpa5ww8bum Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pytest-splinter ... ok
+Trying polyglot ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-r87smcl0/polyglot/setup.py'"'"'; __file__='"'"'/tmp/pip-install-r87smcl0/polyglot/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-r87smcl0/polyglot/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-r87smcl0/polyglot/setup.py", line 15, in <module>
+        readme = readme_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 2330: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying newspaper3k ... ok
+Trying dvc ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp37r09py6
+       cwd: /tmp/pip-install-z34pkzsi/dvc
+  Complete output (20 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-vcbg24n4/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-vcbg24n4/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-vcbg24n4/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 249, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "/tmp/pip-build-env-vcbg24n4/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 134, in <module>
+      long_description=open("README.rst", "r").read(),
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 135: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmp37r09py6 Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying nbval ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-zqxfqmld/nbval/setup.py'"'"'; __file__='"'"'/tmp/pip-install-zqxfqmld/nbval/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-zqxfqmld/nbval/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-zqxfqmld/nbval/setup.py", line 6, in <module>
+        readme = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 5196: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pythondialog ... ok
+Trying pyvisa ... ok
+Trying rstcheck ... ok
+Trying flake8-broken-line ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-k6x5e511/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'poetry>=0.12'
+       cwd: None
+  Complete output (30 lines):
+  Collecting poetry>=0.12
+    Using cached https://files.pythonhosted.org/packages/eb/98/a598bb2663e0e43557a99a243ebd21b27b1fc07d2c146b2554aa45ace5dc/poetry-1.0.3.tar.gz
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpead1kmvw
+         cwd: /tmp/pip-install-q19ahn_r/poetry
+    Complete output (16 lines):
+    Traceback (most recent call last):
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+        main()
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+        json_out['return_val'] = hook(**hook_input['kwargs'])
+      File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+        return hook(config_settings)
+      File "/tmp/pip-build-env-s16t3_m2/overlay/lib/python3.8/site-packages/intreehooks.py", line 53, in get_requires_for_build_wheel
+        return self._backend.get_requires_for_build_sdist(config_settings)
+      File "/tmp/pip-build-env-s16t3_m2/overlay/lib/python3.8/site-packages/intreehooks.py", line 34, in _backend
+        proj = pytoml.load(f)
+      File "/tmp/pip-build-env-s16t3_m2/overlay/lib/python3.8/site-packages/pytoml/parser.py", line 11, in load
+        return loads(fin.read(), translate=translate, object_pairs_hook=object_pairs_hook, filename=getattr(fin, 'name', repr(fin)))
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 136: ordinal not in range(128)
+    ----------------------------------------
+  ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpead1kmvw Check the logs for full command output.
+  WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip install --ignore-installed --no-user --prefix /tmp/pip-build-env-k6x5e511/overlay --no-warn-script-location --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'poetry>=0.12' Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying albumentations ... ok
+Trying django-pandas ... ok
+Trying gino ... ok
+Trying kmodes ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-uts6bgpy/kmodes/setup.py'"'"'; __file__='"'"'/tmp/pip-install-uts6bgpy/kmodes/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-uts6bgpy/kmodes/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-uts6bgpy/kmodes/setup.py", line 20, in <module>
+        long_description=open('README.rst', 'r').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 4527: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying oic ... ok
+Trying django-admin-sortable ... ok
+Trying oci-cli ... timedout
+Trying proxmoxer ... ok
+Trying azure-cli-profile ... ok
+Trying django-ratelimit-backend ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-9cvxvg17/django-ratelimit-backend/setup.py'"'"'; __file__='"'"'/tmp/pip-install-9cvxvg17/django-ratelimit-backend/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-9cvxvg17/django-ratelimit-backend/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-9cvxvg17/django-ratelimit-backend/setup.py", line 7, in <module>
+        long_description = f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 533: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying twitter ... ok
+Trying python-logstash-async ... timedout
+Trying flexmock ... ok
+Trying jsons ... ok
+Trying django-babel ... ok
+Trying pytest-allure-adaptor ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-61_17fkt/pytest-allure-adaptor/setup.py'"'"'; __file__='"'"'/tmp/pip-install-61_17fkt/pytest-allure-adaptor/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-61_17fkt/pytest-allure-adaptor/
+    Complete output (11 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-61_17fkt/pytest-allure-adaptor/setup.py", line 39, in <module>
+        main()
+      File "/tmp/pip-install-61_17fkt/pytest-allure-adaptor/setup.py", line 32, in main
+        long_description=read('README.rst'),
+      File "/tmp/pip-install-61_17fkt/pytest-allure-adaptor/setup.py", line 20, in read
+        return open(os.path.join(os.path.dirname(__file__), fname)).read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 5615: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-render-block ... failed
+Output:   ERROR: Could not find a version that satisfies the requirement django-render-block (from versions: none)
+ERROR: No matching distribution found for django-render-block
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying goslate ... ok
+Trying robotframework-pageobjectlibrary ... ok
+Trying ics ... ok
+Trying logdna ... ok
+Trying seleniumbase ... ok
+Trying sceptre ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-6g3o4f4t/sceptre/setup.py'"'"'; __file__='"'"'/tmp/pip-install-6g3o4f4t/sceptre/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-6g3o4f4t/sceptre/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-6g3o4f4t/sceptre/setup.py", line 9, in <module>
+        readme = readme_file.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4940: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying mail-parser ... ok
+Trying aws-cdk-aws-autoscaling ... failed
+Output:   ERROR: Command errored out with exit status 1:
+   command: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpoodcl63z
+       cwd: /tmp/pip-install-s2pv3n30/aws-cdk-aws-autoscaling
+  Complete output (18 lines):
+  Traceback (most recent call last):
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 207, in <module>
+      main()
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 197, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py", line 54, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "/tmp/pip-build-env-wif7e6qy/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 147, in get_requires_for_build_wheel
+      return self._get_build_requires(
+    File "/tmp/pip-build-env-wif7e6qy/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 128, in _get_build_requires
+      self.run_setup()
+    File "/tmp/pip-build-env-wif7e6qy/overlay/lib/python3.8/site-packages/setuptools/build_meta.py", line 143, in run_setup
+      exec(compile(code, __file__, 'exec'), locals())
+    File "setup.py", line 60, in <module>
+      kwargs['long_description'] = fp.read()
+    File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+      return codecs.ascii_decode(input, self.errors)[0]
+  UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 4696: ordinal not in range(128)
+  ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 /home/inada-n/pypi-ansi/.venv/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py get_requires_for_build_wheel /tmp/tmpoodcl63z Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying rethinkdb ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-_9dsik9_/rethinkdb/setup.py'"'"'; __file__='"'"'/tmp/pip-install-_9dsik9_/rethinkdb/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-_9dsik9_/rethinkdb/
+    Complete output (13 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-_9dsik9_/rethinkdb/setup.py", line 30, in <module>
+        from rethinkdb.version import VERSION
+      File "/tmp/pip-install-_9dsik9_/rethinkdb/rethinkdb/__init__.py", line 88, in <module>
+        r = RethinkDB()
+      File "/tmp/pip-install-_9dsik9_/rethinkdb/rethinkdb/__init__.py", line 36, in __init__
+        from rethinkdb import (
+      File "/tmp/pip-install-_9dsik9_/rethinkdb/rethinkdb/_dump.py", line 35, in <module>
+        from rethinkdb import _export, utils_common
+      File "/tmp/pip-install-_9dsik9_/rethinkdb/rethinkdb/_export.py", line 38, in <module>
+        import six
+    ModuleNotFoundError: No module named 'six'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying scikit-plot ... ok
+Trying gluonnlp ... ok
+Trying tinysegmenter ... ok
+Trying socketio-client ... ok
+Trying sops ... ok
+Trying nameko ... ok
+Trying powerline-status ... ok
+Trying jaconv ... ok
+Trying beaver ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-khr3c8zb/beaver/setup.py'"'"'; __file__='"'"'/tmp/pip-install-khr3c8zb/beaver/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-khr3c8zb/beaver/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-khr3c8zb/beaver/setup.py", line 79, in <module>
+        open('CHANGES.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 13998: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pgeocode ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-d4og0415/pgeocode/setup.py'"'"'; __file__='"'"'/tmp/pip-install-d4og0415/pgeocode/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-d4og0415/pgeocode/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-d4og0415/pgeocode/setup.py", line 43, in <module>
+        long_description=open('README.rst').read(),
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 1443: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying django-url-filter ... ok
+Trying pymongocrypt ... ok
+Trying rasa ... timedout
+Trying irc ... timedout
+Trying django-js-reverse ... ok
+Trying office365-rest-python-client ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-fo4c0x6l/office365-rest-python-client/setup.py'"'"'; __file__='"'"'/tmp/pip-install-fo4c0x6l/office365-rest-python-client/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-fo4c0x6l/office365-rest-python-client/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-fo4c0x6l/office365-rest-python-client/setup.py", line 9, in <module>
+        long_description = fh.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 6344: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying pyemd ... timedout
+Trying pyupgrade ... ok
+Trying django-prettyjson ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-4p5n6f_g/django-prettyjson/setup.py'"'"'; __file__='"'"'/tmp/pip-install-4p5n6f_g/django-prettyjson/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-4p5n6f_g/django-prettyjson/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-4p5n6f_g/django-prettyjson/setup.py", line 41, in <module>
+        readme = open('README.md').read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 2335: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying softlayer ... ok
+Trying pikepdf ... timedout
+Trying pysimplegui ... ok
+Trying transliterate ... ok
+Trying yfinance ... ok
+Trying pytest-testconfig ... ok
+Trying publicsuffixlist ... ok
+Trying eliot ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-kb2ujm84/eliot/setup.py'"'"'; __file__='"'"'/tmp/pip-install-kb2ujm84/eliot/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-kb2ujm84/eliot/
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-kb2ujm84/eliot/setup.py", line 78, in <module>
+        long_description=read("README.rst"),
+      File "/tmp/pip-install-kb2ujm84/eliot/setup.py", line 11, in read
+        return f.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 2331: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying http-parser ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-7x6hmbj4/http-parser/setup.py'"'"'; __file__='"'"'/tmp/pip-install-7x6hmbj4/http-parser/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-hx78n8_a/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/http-parser
+         cwd: /tmp/pip-install-7x6hmbj4/http-parser/
+    Complete output (82 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.8
+    creating build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/_socketio.py -> build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/http.py -> build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/__init__.py -> build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/pyparser.py -> build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/util.py -> build/lib.linux-x86_64-3.8/http_parser
+    copying http_parser/reader.py -> build/lib.linux-x86_64-3.8/http_parser
+    running build_ext
+    building 'http_parser.parser' extension
+    creating build/temp.linux-x86_64-3.8
+    creating build/temp.linux-x86_64-3.8/http_parser
+    gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Iparser -I/home/inada-n/pypi-ansi/.venv/include -I/home/inada-n/pyenv/versions/3.8.1/include/python3.8 -c http_parser/http_parser.c -o build/temp.linux-x86_64-3.8/http_parser/http_parser.o
+    gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Iparser -I/home/inada-n/pypi-ansi/.venv/include -I/home/inada-n/pyenv/versions/3.8.1/include/python3.8 -c http_parser/parser.c -o build/temp.linux-x86_64-3.8/http_parser/parser.o
+    http_parser/parser.c: In function '__Pyx_GetException':
+    http_parser/parser.c:6249:24: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_type'; did you mean 'curexc_type'?
+     6249 |     tmp_type = tstate->exc_type;
+          |                        ^~~~~~~~
+          |                        curexc_type
+    http_parser/parser.c:6250:25: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_value'; did you mean 'curexc_value'?
+     6250 |     tmp_value = tstate->exc_value;
+          |                         ^~~~~~~~~
+          |                         curexc_value
+    http_parser/parser.c:6251:22: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_traceback'; did you mean 'curexc_traceback'?
+     6251 |     tmp_tb = tstate->exc_traceback;
+          |                      ^~~~~~~~~~~~~
+          |                      curexc_traceback
+    http_parser/parser.c:6252:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_type'; did you mean 'curexc_type'?
+     6252 |     tstate->exc_type = local_type;
+          |             ^~~~~~~~
+          |             curexc_type
+    http_parser/parser.c:6253:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_value'; did you mean 'curexc_value'?
+     6253 |     tstate->exc_value = local_value;
+          |             ^~~~~~~~~
+          |             curexc_value
+    http_parser/parser.c:6254:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_traceback'; did you mean 'curexc_traceback'?
+     6254 |     tstate->exc_traceback = local_tb;
+          |             ^~~~~~~~~~~~~
+          |             curexc_traceback
+    http_parser/parser.c: In function '__Pyx_ExceptionSave':
+    http_parser/parser.c:7460:21: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_type'; did you mean 'curexc_type'?
+     7460 |     *type = tstate->exc_type;
+          |                     ^~~~~~~~
+          |                     curexc_type
+    http_parser/parser.c:7461:22: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_value'; did you mean 'curexc_value'?
+     7461 |     *value = tstate->exc_value;
+          |                      ^~~~~~~~~
+          |                      curexc_value
+    http_parser/parser.c:7462:19: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_traceback'; did you mean 'curexc_traceback'?
+     7462 |     *tb = tstate->exc_traceback;
+          |                   ^~~~~~~~~~~~~
+          |                   curexc_traceback
+    http_parser/parser.c: In function '__Pyx_ExceptionReset':
+    http_parser/parser.c:7474:24: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_type'; did you mean 'curexc_type'?
+     7474 |     tmp_type = tstate->exc_type;
+          |                        ^~~~~~~~
+          |                        curexc_type
+    http_parser/parser.c:7475:25: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_value'; did you mean 'curexc_value'?
+     7475 |     tmp_value = tstate->exc_value;
+          |                         ^~~~~~~~~
+          |                         curexc_value
+    http_parser/parser.c:7476:22: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_traceback'; did you mean 'curexc_traceback'?
+     7476 |     tmp_tb = tstate->exc_traceback;
+          |                      ^~~~~~~~~~~~~
+          |                      curexc_traceback
+    http_parser/parser.c:7477:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_type'; did you mean 'curexc_type'?
+     7477 |     tstate->exc_type = type;
+          |             ^~~~~~~~
+          |             curexc_type
+    http_parser/parser.c:7478:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_value'; did you mean 'curexc_value'?
+     7478 |     tstate->exc_value = value;
+          |             ^~~~~~~~~
+          |             curexc_value
+    http_parser/parser.c:7479:13: error: 'PyThreadState' {aka 'struct _ts'} has no member named 'exc_traceback'; did you mean 'curexc_traceback'?
+     7479 |     tstate->exc_traceback = tb;
+          |             ^~~~~~~~~~~~~
+          |             curexc_traceback
+    error: command 'gcc' failed with exit status 1
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /home/inada-n/pypi-ansi/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-7x6hmbj4/http-parser/setup.py'"'"'; __file__='"'"'/tmp/pip-install-7x6hmbj4/http-parser/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-hx78n8_a/install-record.txt --single-version-externally-managed --compile --install-headers /home/inada-n/pypi-ansi/.venv/include/site/python3.8/http-parser Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+Trying publicsuffix2 ... ok
+Trying profitbricks ... ok
+Trying grapheme ... ok
+Trying bagit ... ok
+Trying manhole ... ok
+Trying django-leaflet ... ok
+Trying mdv ... failed
+Output:     ERROR: Command errored out with exit status 1:
+     command: /home/inada-n/pypi-ansi/.venv/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-d_moj2ut/mdv/setup.py'"'"'; __file__='"'"'/tmp/pip-install-d_moj2ut/mdv/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base pip-egg-info
+         cwd: /tmp/pip-install-d_moj2ut/mdv/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-d_moj2ut/mdv/setup.py", line 20, in <module>
+        md = fd.read()
+      File "/home/inada-n/pyenv/versions/3.8.1/lib/python3.8/encodings/ascii.py", line 26, in decode
+        return codecs.ascii_decode(input, self.errors)[0]
+    UnicodeDecodeError: 'ascii' codec can't decode byte 0xc5 in position 4969: ordinal not in range(128)
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
